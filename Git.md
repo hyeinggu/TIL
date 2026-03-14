@@ -23,7 +23,7 @@
 - **git add .**: 모든 파일 추가
 - **git commit**: 변경내용 **저장**
 - **git push**: 로컬에서 만든 커밋을 **GitHub 원격 저장소로 업로드**
-- **git pull**: GitHub에 있는 **최신 코드를 가져오는 명령어**
+- **git pull**: GitHub에 있는 **최신 코드를 가져옴**
 - **git branch**: 현재 브랜치 목록 확인
 - **git switch**: 브랜치 이동
 - **git remote -**: 원격 저장소 확인

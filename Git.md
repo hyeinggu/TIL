@@ -17,6 +17,7 @@
 
 ## 기본 명령어
 
+- **git clone**: GitHub에 있는 저장소를 **내 컴퓨터로 복사**
 - **git init**: Git 저장소 초기화
 - **git status**: 현재 git 상태 확인
 - **git add <파일>**: 변경된 파일을 **스테이징 영역에 추가**
@@ -28,3 +29,5 @@
 - **git switch**: 브랜치 이동
 - **git remote -**: 원격 저장소 확인
 - **git config**: Git 사용자 정보 설정
+- **git log**: 커밋 기록 확인
+- **git diff**: 파일의 **변경된 내용 비교**

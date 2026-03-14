@@ -22,7 +22,7 @@
 - **git status**: 현재 git 상태 확인
 - **git add <파일>**: 변경된 파일을 **스테이징 영역에 추가**
 - **git add .**: 모든 파일 추가
-- **git commit**: 변경내용 **저장**
+- **git commit**: 변경 내용 **저장**
 - **git push**: 로컬에서 만든 커밋을 **GitHub 원격 저장소로 업로드**
 - **git pull**: GitHub에 있는 **최신 코드를 가져옴**
 - **git branch**: 현재 브랜치 목록 확인

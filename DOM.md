@@ -10,12 +10,17 @@
 
 ### 요소 선택
 
-- `document.querySelector` : 주어진 CSS 선택자와 일치하는 첫 번째 요소를 반환한다.
-- `document.querySelectorAll` : 주어진 CSS 선택자와 일치하는 모든 요소의 목록을 반환한다.
+- `document.querySelector` : 주어진 CSS 선택자와 일치하는 **첫 번째 요소**를 반환한다.
+- `document.querySelectorAll` : 주어진 CSS 선택자와 일치하는 **모든 요소**의 목록을 반환한다.
+- `getElementById` : **id 속성을 기반**으로 요소를 선택한다. id 값은 문서 내에서 유일하기 때문에 단일 요소를 반환하며 가장 효율적인 선택 방법 중 하나이다.
+- `getElementsByClassName` : **클래스 속성을 기준**으로 요소를 선택한다. 이 요소는 실시간 HTMLCollection을 반환한다. 지정된 클래스 이름을 가진 모든 요소를 포함한다.
+- `getElementsByTagName` : **태그 이름을 기준**으로 요소를 선택한다.(예: div, p, h1) 이 메서드는 태그 이름과 일치하는 모든 요소의 HTMLCollection을 반환한다.
 
 ### 요소 생성/수정
 
 - `createElement()` : 요소를 생성한다.
 - `appendChild()` : 괄호 안의 내용을 자식으로 입양한다.
 - `innerHTML()` : HTML 요소의 내부 마크업을 가져오거나 설정한다.
-- `textContent()` : HTML 요소 내의 텍스트 콘텐츠를 가져오거나 설정한다..
+  - 매우 느리고 외부 공격에 취약하기 때문에 가급적 사용을 지양해야 한다.
+  - 단순히 텍스트만 입력하기 위해서라면, `innerText`만으로도 충분하다.
+- `textContent()` : HTML 요소 내의 텍스트 콘텐츠를 가져오거나 설정한다.
